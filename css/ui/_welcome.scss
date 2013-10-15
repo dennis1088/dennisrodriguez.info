@@ -1,0 +1,13 @@
+.welcome {
+	text-align:center;
+	width:320px;
+	height:200px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin: -100px 0 0 -160px;
+}
+.welcome__logo {
+	font-size: $giga-size;
+	color: $brand-color;
+}
