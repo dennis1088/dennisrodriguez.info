@@ -1,5 +1,10 @@
-set :application, 'my app name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'dennis-rodriguez'
+set :repo_url, 'git@github.com:dennis1088/dennisrodriguez.info.git'
+set :branch, 'master'
+set :deploy_to, '/var/www/dennisrodriguez.info'
+set :scm, :git
+set :keep_releases, 5
+
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
